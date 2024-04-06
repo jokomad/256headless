@@ -7,11 +7,11 @@ FROM jlesage/baseimage-gui:alpine-3.18-v4.5.2
 
 
 RUN add-pkg chromium
-#RUN add-pkg file-roller
+RUN add-pkg file-roller
 #RUN add-pkg firefox
 #RUN add-pkg sudo
 #RUN add-pkg xterm
-#RUN add-pkg curl
+RUN add-pkg curl
 
 #RUN apt-get update
 #RUN apt-get install chromium -y
